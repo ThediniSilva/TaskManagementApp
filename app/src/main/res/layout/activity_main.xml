@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Your Task"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/deleteAll"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#6220E6"
+            android:text="X"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/taskview" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@color/design_default_color_primary"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </FrameLayout>
+</LinearLayout>
