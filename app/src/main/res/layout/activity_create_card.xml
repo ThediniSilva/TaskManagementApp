@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CreateCard">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Your Details"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Task"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Description"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Priority"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Deadline"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="15dp"
+        android:text="Save"
+        android:textSize="24sp" />
+
+</LinearLayout>

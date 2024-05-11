@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TaskManagementApp"
         tools:targetApi="31">
         <activity
+            android:name=".CreateCard"
+            android:exported="false" />
+        <activity
+            android:name=".CreareTask"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

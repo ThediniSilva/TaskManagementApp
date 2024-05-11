@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update Task Details"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Task"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Description"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Priority"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Deadline"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB"
+        android:textColorLink="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:ems="10"
+        android:text="Update"
+        android:textSize="24sp" />
+</LinearLayout>
